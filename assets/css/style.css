@@ -1,0 +1,56 @@
+.container {
+    margin-bottom: 30px;
+}
+
+#banner {
+    font: 30px arial, sans-serif;
+
+    margin-right: 800px;
+}
+
+.top {
+    display: inline-block;
+}
+
+.dropdown {
+    display: inline-block;
+}
+
+#search_container {
+	display: inline-block;
+}
+
+#post_to_classifieds_container {
+	display: inline-block;
+}
+
+.category.container {
+	margin: 30px;
+}
+
+#main {
+	margin: 0 auto;
+	width: 450px;
+}
+
+#row-1 .category {
+	display: inline-block;
+}
+
+#row-2 .category {
+	display: inline-block;
+}
+
+#row-3 .category {
+	display: inline-block;
+}
+
+
+#account_container {
+	display: inline-block;
+}
+
+#language_container {
+	display: inline-block;
+	margin-left: 700px;
+}

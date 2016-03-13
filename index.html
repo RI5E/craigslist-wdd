@@ -1,0 +1,126 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	</head>
+	<body>
+		<div id="banner" class="top">CRAIGSLIST </div>
+
+		<div id="horizontal_dropdown_menu_container" class="top container">
+			<div class="dropdown">
+				<button class="dropbutton">World</button>
+				<div class="dropdown_content">
+					<!-- add content for World -->
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbutton">Country</button>
+				<div class="dropdown_content">
+					<!-- add content for Country -->
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbutton">State</button>
+				<div class="dropdown_content">
+					<!-- add content for State -->
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbutton">City</button>
+				<div class="dropdown_content">
+					<!-- add content for City -->
+				</div>
+			</div>
+			<div class="dropdown">
+				<button class="dropbutton">Nearby</button>
+				<div class="dropdown_content">
+					<!-- add content for Nearby -->
+				</div>
+			</div>
+		</div>
+
+		<div id="search_container" class="container">
+			<div class="search_bar">
+				<input type="text" name="search" placeholder="Search"><br>
+			</div>
+		</div>
+
+		<div id="post_to_classifieds_container" class="container">
+			<button id="Post_to_classifieds">Post To Classifieds</button>
+		</div>
+
+		<div id="language_container" class="container">
+			Language:
+			<select>
+				<option value="pig-latin">Pig Latin</option>
+				<option value="Chinese">Chinese</option>
+			</select>
+		</div>
+
+		<div id="account_container" class="container">
+			<button id="My_Account">My Account</button>
+		</div>	
+
+		<div id="main">
+		<div id="row-1">
+			<div id="community_button_container" class="category container">
+				Community
+			</div>
+
+			<div id="services_button_container" class="category container">
+				Services
+			</div>
+
+			<div id="personals_button_container" class="category container">
+				Personals
+			</div>
+		</div>
+
+		<div id="row-2">
+			<div id="gigs_button_container" class="category container">
+			Gigs
+			</div>
+
+			<div id="housing_button_container" class="category container">
+			Housing
+			</div>
+
+			<div id="jobs_button_container" class="category container">
+			Jobs/resumes
+			</div>
+		</div>
+
+		<div id="row-3">
+			<div id="for_sale_button_container" class="category container">
+			For Sale
+			</div>
+
+			<div id="discussion_button_container" class="category container">
+			Discussion
+			</div>		
+
+			<div id="calendar_container" class="category container">
+			Calendar <!-- LAYOUT NOTE: My recommendation is to turn this into a "Events Calendar"
+			button, similar to the For Sale, Discussion, etc buttons. This is because to fit on a horizontal style screen, I think a 3 by 3
+			arrangement of buttons would be quite nice. With only 8 "category" buttons, our layout would be super skinny (4x2? ew and a lot of scrolling)
+			or super fat (2x4 = no no no) or really weird (3 buttons in one column, 3 buttons in the next, 2 in the third ?? ?? ??) -->
+			
+			<!-- IMPLEMENTATION NOTE: idk what the best way to implement this is. 30 divs with a link in all of them would work but SUCK. I found table online, but it def has its limitations (idk what they are yet but there's gotta b a catch since Eric wants us to use just div tags as much as possible)
+			StackOverflow says "don't use tables they're outdated" but also "use tables people are just scared bc they're complicated" -->
+				<table id="calendar">
+					<tr><td><td><td><td><td><td><td>
+					<tr><td><td><td><td><td><td><td>
+					<tr><td><td><td><td><td><td><td>
+					<tr><td><td><td><td><td><td><td>
+				</table>
+			</div>
+		</div>
+		</div>
+
+		<div id="random_link_container" class="container"> <!-- NOTE: DO WE WANT SUBCONTAINERS? -->
+			<a href="www.ucberkeleyeecs.com">About Us</a>
+			<!-- Add a shitload of other links like copyright, terms of service, and random shit -->
+		</div>
+		
+
+	</body>
+</html>
