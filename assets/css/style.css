@@ -3,16 +3,11 @@
 }
 
 #banner {
-    font: 30px arial, sans-serif;
-
+    font: 120px arial, sans-serif;
     margin-right: 800px;
 }
 
 .top {
-    display: inline-block;
-}
-
-.dropdown {
     display: inline-block;
 }
 
