@@ -89,6 +89,51 @@ body {
 	height: 100px;
 }
 
+.content-area {
+  margin-top: 100px;
+  margin-left: 150px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #c2e4ef;
+}
+
+#gallery-title {
+  font-size: 36px;
+  text-align: center;
+}
+
+.gallery-unit {
+  float: left;
+  padding: 10px;
+  margin: 20px;
+  background-color: black;
+}
+
+.top-tag {
+  background-color: pink;
+  text-align: center;
+}
+
+.link {
+  margin: 0;
+}
+
+.image {
+  margin: 10px;
+  background-color: gray;
+  border-style: double;
+  border-color: black;
+  border-width: 5px;
+}
+
+.description {
+  margin-bottom: 10px;
+  background-color: pink;
+}
+
+a {
+  text-decoration: none;
+}
+
 .sidebar {
 	float: left;
 	width: 150px;
@@ -169,3 +214,49 @@ select {
 .update-search {
 	margin-bottom: 500px:;
 }
+=======
+.content-area {
+  margin-top: 100px;
+  margin-left: 150px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #c2e4ef;
+}
+
+#gallery-title {
+  font-size: 36px;
+  text-align: center;
+}
+
+.gallery-unit {
+  float: left;
+  padding: 10px;
+  margin: 20px;
+  background-color: black;
+}
+
+.top-tag {
+  background-color: pink;
+  text-align: center;
+}
+
+.link {
+  margin: 0;
+}
+
+.image {
+  margin: 10px;
+  background-color: gray;
+  border-style: double;
+  border-color: black;
+  border-width: 5px;
+}
+
+.description {
+  margin-bottom: 10px;
+  background-color: pink;
+}
+
+a {
+  text-decoration: none;
+}
+>>>>>>> d649fbea3c2a49c17de8764e4d21effed7603fdb
