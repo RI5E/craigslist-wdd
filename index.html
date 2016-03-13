@@ -3,21 +3,12 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 	</head>
 	<body>
-		<div id="banner" class="top">CRAIGSLIST </div>
 
-		<div id="search_container" class="container">
-			<div class="search_bar">
-				<input type="text" name="search" placeholder="Search"><br>
-			</div>
-		</div>
+		<!-- turned into a gigantic top/banner class -->
+		<div id="header">
+		<div id="banner" class="top logo container"> CRAIGSLIST </div>
 
-		
-
-		<div id="post_to_classifieds_container" class="container">
-			<button id="Post_to_classifieds">Post To Classifieds</button>
-		</div>
-
-		<div id="language_container" class="container">
+		<div id="language_container" class="top top_row1 container">
 			Language:
 			<select>
 				<option value="pig-latin">Pig Latin</option>
@@ -25,9 +16,24 @@
 			</select>
 		</div>
 
-		<div id="account_container" class="container">
+		<div id="account_container" class="top top_row1 container">
 			<button id="My_Account">My Account</button>
 		</div>	
+
+		<br>
+		<div id="search_container" class="top top_row2 container">
+			<div class="search_bar">
+				<input type="text" name="search" placeholder="Search"><br>
+			</div>
+		</div>
+
+		<div id="post_to_classifieds_container" class="top top_row2 container">
+			<button id="Post_to_classifieds">Post To Classifieds</button>
+		</div>
+	</div>
+
+
+
 
 		<div id="main">
 		<div id="row-1">
@@ -83,11 +89,16 @@
 				</table>
 			</div>
 		</div>
-		</div>
 
-		<div id="random_link_container" class="container"> <!-- NOTE: DO WE WANT SUBCONTAINERS? -->
-			<a href="www.ucberkeleyeecs.com">About Us</a>
-			<!-- Add a shitload of other links like copyright, terms of service, and random shit -->
+
+		<div id="footer">
+
+			<div id="random_link_container" class="container"> <!-- NOTE: DO WE WANT SUBCONTAINERS? -->
+				<a href="http://www.ucberkeleyeecs.com">About Us</a>
+				<!-- Add a shitload of other links like copyright, terms of service, and random shit -->
+			</div>
+
+		</div>
 		</div>
 
 	</body>
