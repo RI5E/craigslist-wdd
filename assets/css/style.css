@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-	height: 1000px;
+	
 }
 
 #header {
@@ -42,7 +42,7 @@ body {
 }
 
 .top_row2 {
-	left: -340px;
+	left: -360px;
 	top: 30px;
 	margin: 20px;
 	position: relative;
