@@ -332,5 +332,6 @@ select {
 }
 
 a {
-  text-decoration: none;
+	color:white;
+  	text-decoration: none;
 }
