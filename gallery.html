@@ -1,23 +1,13 @@
 <html>
 	<head>
 		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
 	</head>
 	<body>
-		<div id="banner" class="top">CRAIGSLIST </div>
+		<div id="header">
+		<div id="banner" class="top logo container"> CRAIGSLIST </div>
 
-		<div id="search_container" class="container">
-			<div class="search_bar">
-				<input type="text" name="search" placeholder="Search"><br>
-			</div>
-		</div>
-
-
-
-		<div id="post_to_classifieds_container" class="container">
-			<button id="Post_to_classifieds">Post To Classifieds</button>
-		</div>
-
-		<div id="language_container" class="container">
+		<div id="language_container" class="top top_row1 container">
 			Language:
 			<select>
 				<option value="pig-latin">Pig Latin</option>
@@ -25,62 +15,95 @@
 			</select>
 		</div>
 
-		<div id="account_container" class="container">
+		<div id="account_container" class="top top_row1 container">
 			<button id="My_Account">My Account</button>
 		</div>
 
-    <div id="sidebar">
+		<br>
+		<div id="search_container" class="top top_row2 container">
+			<div class="search_bar">
+				<input type="text" name="search" placeholder="Search"><br>
+			</div>
+		</div>
+
+		<div id="post_to_classifieds_container" class="top top_row2 container">
+			<button id="Post_to_classifieds">Post To Classifieds</button>
+		</div>
+	</div>
+
+    <div class="sidebar">
 			<div id="sidebar-content">Side Bar</div>
 		</div>
-		
-		<div id="content-area">
-			<div id="title">Gallery</div>
+
+		<div class="content-area">
+			<div id="gallery-title">Gallery</div>
 			<div id="gallery" class="container">
 				<div class="gallery-unit">
-					<a href="http://www.feedmusic.com/" target="_blank"><div id="link" >Link</div></a>
-					<div class="pricetag">Price</div>
+					<div class="top-tag">
+						<a href="http://www.feedmusic.com/" target="_blank"><span class="link" >Link</span></a>
+						<span class="pricetag">Price</span>
+					</div>
 					<div class="image"><img src="assets/img/shoppingcart.jpg"></div>
 					<div class="description">YASSSSSSS</div>
 				</div>
 
 				<div class="gallery-unit">
-					<a href="http://www.feedmusic.com/" target="_blank"><div id="link" >Link</div></a>
-					<div class="pricetag">Price</div>
+					<div class="top-tag">
+						<a href="http://www.feedmusic.com/" target="_blank"><span class="link" >Link</span></a>
+						<span class="pricetag">Price</span>
+					</div>
 					<div class="image"><img src="assets/img/shoppingcart.jpg"></div>
 					<div class="description">YASSSSSSS</div>
 				</div>
 
 				<div class="gallery-unit">
-					<a href="http://www.feedmusic.com/" target="_blank"><div id="link" >Link</div></a>
-					<div class="pricetag">Price</div>
+					<div class="top-tag">
+						<a href="http://www.feedmusic.com/" target="_blank"><span class="link" >Link</span></a>
+						<span class="pricetag">Price</span>
+					</div>
 					<div class="image"><img src="assets/img/shoppingcart.jpg"></div>
 					<div class="description">YASSSSSSS</div>
 				</div>
 
 				<div class="gallery-unit">
-					<a href="http://www.feedmusic.com/" target="_blank"><div id="link" >Link</div></a>
-					<div class="pricetag">Price</div>
+					<div class="top-tag">
+						<a href="http://www.feedmusic.com/" target="_blank"><span class="link" >Link</span></a>
+						<span class="pricetag">Price</span>
+					</div>
 					<div class="image"><img src="assets/img/shoppingcart.jpg"></div>
 					<div class="description">YASSSSSSS</div>
 				</div>
 
 				<div class="gallery-unit">
-					<a href="http://www.feedmusic.com/" target="_blank"><div id="link" >Link</div></a>
-					<div class="pricetag">Price</div>
+					<div class="top-tag">
+						<a href="http://www.feedmusic.com/" target="_blank"><span class="link" >Link</span></a>
+						<span class="pricetag">Price</span>
+					</div>
 					<div class="image"><img src="assets/img/shoppingcart.jpg"></div>
 					<div class="description">YASSSSSSS</div>
 				</div>
 
 				<div class="gallery-unit">
-					<a href="http://www.feedmusic.com/" target="_blank"><div id="link" >Link</div></a>
-					<div class="pricetag">Price</div>
+					<div class="top-tag">
+						<a href="http://www.feedmusic.com/" target="_blank"><span class="link" >Link</span></a>
+						<span class="pricetag">Price</span>
+					</div>
+					<div class="image"><img src="assets/img/shoppingcart.jpg"></div>
+					<div class="description">YASSSSSSS</div>
+				</div>
+
+				<div class="gallery-unit">
+					<div class="top-tag">
+						<a href="http://www.feedmusic.com/" target="_blank"><span class="link" >Link</span></a>
+						<span class="pricetag">Price</span>
+					</div>
 					<div class="image"><img src="assets/img/shoppingcart.jpg"></div>
 					<div class="description">YASSSSSSS</div>
 				</div>
 
 				<div class="page-toggle">
 					<span class="forward-arrow"></span>
-					<span class="page-number-1">Page 1</span>
+					<span class="page-number" id="page1">Page 1</span>
 					<span class="backward-arrow"></span>
 				</div>
 
