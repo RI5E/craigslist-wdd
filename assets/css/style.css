@@ -16,7 +16,7 @@ body {
 }
 
 .container {
-	height: 1000px;
+	
 }
 
 #header {
@@ -44,7 +44,7 @@ body {
 }
 
 .top_row2 {
-	left: -340px;
+	left: -360px;
 	top: 30px;
 	margin: 20px;
 	position: relative;
@@ -147,6 +147,21 @@ a {
 	margin-right: 50px;
 	float:left;
 }
+
+#redirect-button {
+	margin-right: 10px;
+	font: 15px arial, sans-serif;
+	float: right;
+	position: relative;
+	top: -90px;
+}
+
+#html-link-other-pages {
+	display: block;
+	margin-bottom: 10px;
+}
+
+
 .content-area {
   margin-top: 100px;
   margin-left: 150px;
