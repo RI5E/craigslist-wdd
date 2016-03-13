@@ -86,3 +86,34 @@ body {
 	position: absolute;
 	height: 100px;
 }
+
+.content-area {
+  margin-top: 100px;
+  margin-left: 150px;
+  font-family: 'Open Sans', sans-serif;
+  background-color: #c2e4ef;
+}
+
+#gallery-title {
+  font-size: 36px;
+  text-align: center;
+}
+
+.gallery-unit {
+  float: left;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+.top-tag {
+  background-color: pink;
+  text-align: center;
+}
+
+.link {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
