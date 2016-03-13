@@ -71,8 +71,6 @@ body {
 	display: inline-block;
 }
 
-/* header css ends, begin main page main body css */
-
 .category {
 	background-color: rgba(255,255,255,0.1);
 	z-index: 5;
@@ -167,9 +165,10 @@ a {
   margin-left: 150px;
   height: 100%;
   font-family: 'Open Sans', sans-serif;
-  z-index: -2;
+  z-index: 1;
   background-color: rgb(220,220,240);
 }
+
 #gallery-title {
   font-size: 36px;
   text-align: center;
@@ -229,23 +228,25 @@ a {
 
 #list-view {
 	position: relative;
-	top: 120px;
-	left: -20px;
+	top: 20px;
+	left: 0px;
 	padding: 20px;
 	padding-left: 0px;
-	background-color: white;
 	height: 100%;
 	width: 100%;
-	z-index: -2;
+	z-index: 1;
 }
 
 .list-item-sub {
 	float: left;
+	margin: 0 auto;
 	margin: 10px;
 }
 
 #favorite .image{
+	border-style: none;
 	width: 20px;
+	margin: 0;
 }
 
 .list-item {
