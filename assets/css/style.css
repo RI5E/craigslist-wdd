@@ -11,6 +11,8 @@ body {
 	z-index: -100;
 	background-size: 100% 100%;
 	position: fixed;
+	top: 0;
+	left: 0;
 }
 
 .container {
@@ -86,7 +88,7 @@ body {
 	margin-left: 110px;
 	margin-bottom: 50px;
 	font: 15px arial, sans-serif;
-	color:rgba(255,255,255,0.1);;
+	color:rgba(255,255,255,0);;
 	overflow:scroll;
 }
 
@@ -136,7 +138,7 @@ body {
 }
 
 a {
-	color: white;
+	color:white;
 	text-decoration: none;
 }
 
@@ -331,7 +333,3 @@ select {
   background-color: pink;
 }
 
-a {
-	color:white;
-  	text-decoration: none;
-}
