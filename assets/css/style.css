@@ -360,3 +360,60 @@ select {
 .pic {
 	color: orange;
 }
+
+.thumb-list-top {
+	padding-top: 20px;
+	padding-left: 150px;
+	position: absolute;
+	pointer-events: auto;
+}
+.thumb-list-bottom {
+	padding-top: 80px;
+	padding-left: 150px;
+	position: absolute;
+	pointer-events: auto;
+	
+}
+#thumbnail .image{
+	z-index: 8;
+	max-width: 100px;
+	max-height: 100px;
+	position: absolute;
+	pointer-events: auto;
+}
+#thumbnail {
+	padding-top: 10px;
+	padding-left: 10px;
+	max-width: 100px;
+	max-height: 100px;
+	z-index: 8;
+	position: absolute;
+	pointer-events: auto;
+}
+#thumbnail .image:hover {
+	z-index: 8;
+	max-width: 10000px;
+	max-height: 10000px;
+	opacity: 1;
+}
+
+.thumb-list-item {
+	background-color: rgb(240, 240, 240);
+	opacity: 0.6;
+	height: 150px;
+	width: 1300px;
+	border-radius: 30px;
+	margin: 0px 0px 20px;
+	margin-left: 50px;
+	z-index: 4;
+	pointer-events: none;
+}
+.thumb-list-item:hover {
+	opacity: 1;
+	height: 500px;
+}
+.thumb-item-sub {
+	float: left;
+	margin: 0 auto;
+	margin: 10px;
+}

@@ -1,0 +1,263 @@
+<html>
+	<head>
+		<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+	</head>
+
+	<body>
+		<div id="background"></div>
+		<div id="header">
+		<div id="banner" class="top logo container"> <a href="index.html"> SF-CRAIGSLIST </a> </div>
+
+			<div id="language_container" class="top top_row1 container">
+				Language:
+				<select>
+					<option value="pig-latin">Pig Latin</option>
+					<option value="Chinese">Chinese</option>
+				</select>
+			</div>
+
+			<div id="account_container" class="top top_row1 container">
+				<button id="My_Account">My Account</button>
+			</div>	
+
+			<br>
+			<div id="search_container" class="top top_row2 container">
+				<div class="search_bar">
+					<input type="text" name="search" placeholder="Search"><br>
+				</div>
+			</div>
+
+			<div id="post_to_classifieds_container" class="top top_row2 container">
+				<button id="Post_to_classifieds">Post To Classifieds</button>
+			</div>
+		</div>
+
+		<div class = "sidebar">
+			<div class="sidebar-title">LIVING</div>
+			
+			<div class = "display-options">
+				<input type="checkbox" name="display" value="title">search titles only<br>
+				<input type="checkbox" name="display" value="image">has image<br>
+				<input type="checkbox" name="display" value="today">posted today<br>
+				<input type="checkbox" name="display" value="nearby">include nearby<br>
+			</div>
+			
+			<div class="min-max">
+				<div class="label">Miles from zip</div>
+				<input type="text" name="user-input" placeholder="miles">
+				<input type="text" name="user-input" placeholder="from zip">
+				<div class="label">Price</div>
+				<input type="text" name="user-input" placeholder="min">
+				<input type="text" name="user-input" placeholder="max">
+			</div>
+
+			<div id="bedrooms" class="dropdown-options">
+				<select>
+					<option value="all-bedrooms">all bedrooms</options>
+					<option value="1-bedrooms">1+ bedrooms</options>
+					<option value="2-bedrooms">2+ bedrooms</options>
+					<option value="3-bedrooms">3+ bedrooms</options>
+					<option value="4-bedrooms">4+ bedrooms</options>
+					<option value="5-bedrooms">5+ bedrooms</options>
+					<option value="6-bedrooms">6+ bedrooms</options>
+					<option value="7-bedrooms">7+ bedrooms</options>
+					<option value="8-bedrooms">8+ bedrooms</options>
+				</select>
+			</div>
+
+			<div id="bathrooms" class="dropdown-options">
+				<select>
+					<option value="all-bathooms">all bathooms</options>
+					<option value="1-bedrooms">1+ bathooms</options>
+					<option value="2-bedrooms">2+ bathooms</options>
+					<option value="3-bedrooms">3+ bathooms</options>
+					<option value="4-bedrooms">4+ bathooms</options>
+					<option value="5-bedrooms">5+ bathooms</options>
+					<option value="6-bedrooms">6+ bathooms</options>
+					<option value="7-bedrooms">7+ bathooms</options>
+					<option value="8-bedrooms">8+ bathooms</options>
+				</select>
+			</div>
+
+			<div class="min-max">
+				<div class="label">ft2</div>
+				<input type="text" name="user-input" placeholder="min">
+				<input type="text" name="user-input" placeholder="max">			
+			</div>
+
+			<div id="availability" class="dropdown-options">
+				<select>
+					<option value="all-dates">all days</options>
+					<option value="less30">within 30 days</options>
+					<option value="more30">beyond 30 days</options>
+				</select>
+			</div>
+
+			<div class = "housing-options">
+				<input type="checkbox" name="accessibility" value="cat">cats ok<br>
+				<input type="checkbox" name="accessibility" value="dog">dogs ok<br>
+				<input type="checkbox" name="accessibility" value="furnished">furnished<br>
+				<input type="checkbox" name="accessibility" value="smoking">no smoking<br>
+				<input type="checkbox" name="accessibility" value="wheelchair">wheelchair access<br>
+			</div>
+			
+			<div class="label">housing type</div>
+			<div id="housing-type" class="dropdown-options">
+				<select>
+					<option value="placeholder"></options>
+					<option value="apartment">apartment</options>
+					<option value="condo">condo</options>
+					<option value="cottage-cabin">cottage/cabin</options>
+					<option value="duplex">duplex</options>
+					<option value="flat">flat</options>
+					<option value="house">house</options>
+					<option value="in-law">in-law</options>
+					<option value="loft">loft</options>
+					<option value="townhouse">townhouse</options>
+					<option value="manufactured">manufactured</options>
+					<option value="assisted-living">assisted living</options>
+					<option value="land">land</options>
+				</select>
+			</div>
+
+			<div class="label">laundry</div>
+			<div id="openhouse" class="dropdown-options">
+				<select>
+					<option value="placeholder"></options>
+					<option value="unit">w/d in unit</options>
+					<option value="hookups">w/d hookups</options>
+					<option value="bldg">laundry in bldg</options>
+					<option value="site">laundry on site</options>
+					<option value="nonesite">no laundry on site</options>
+				</select>
+			</div>
+
+			<div class="label">parking</div>
+			<div id="openhouse" class="dropdown-options">
+				<select>
+					<option value="placeholder"></options>
+					<option value="carport">carport</options>
+					<option value="attached">attached garage</options>
+					<option value="detached">detached garage</options>
+					<option value="off-street">off-street parking</options>
+					<option value="street">street parking</options>
+					<option value="valet">valet parking</options>
+					<option value="none">no parking</options>
+				</select>
+			</div>
+
+			<div class="label">open house date</div>
+			<div id="openhouse" class="dropdown-options">
+				<select>
+					<option value="placeholder"></options>
+					<option value="day1">March 12 - today</options>
+					<option value="day2">March 13 - tomorrow</options>
+				</select>
+			</div>
+
+			<div class="update-search">
+				<input type="button" value="reset">
+				<input type="button" value="update">
+			</div>
+		
+		</div>
+
+
+		<div id="list-view" class="content-area">
+			<div class="thumb-housing-items">
+				<ul style="list-style-type:none">
+					<li>
+						<div class="thumb-list-item">
+						<div id="thumbnail"><img src="assets/img/room.jpg" class="image"></div>					
+							<div class="thumb-list-top">
+								<div id="favorite" class="thumb-item-sub"><img src="assets/img/favstar.png" class="image"></div>
+								<div id="date" class="thumb-item-sub">Mar 12</div>
+								<div id="description" class="thumb-item-sub">Awesome room for an Awesome Roommate</div>
+							</div>
+							<div class="thumb-list-bottom">					
+								<div id="price" class="thumb-item-sub">$1350</div>
+								<div id="num-bedrooms" class="thumb-item-sub">4br</div>
+								<div id="location" class="thumb-item-sub">santa clara</div>
+								<div id="img-link" class="thumb-item-sub"><a href="" class="pic">pic</a></div>
+								<div id="map-link" class="thumb-item-sub"><a href="" class="map">map</a></div>
+								<div id="trash" class="thumb-item-sub"><img src=""></div>
+							</div>							
+						</div>			
+					</li>
+					<li>
+						<div class="thumb-list-item">
+						<div id="thumbnail"><img src="assets/img/room.jpg" class="image"></div>					
+							<div class="thumb-list-top">
+								<div id="favorite" class="thumb-item-sub"><img src="assets/img/favstar.png" class="image"></div>
+								<div id="date" class="thumb-item-sub">Mar 12</div>
+								<div id="description" class="thumb-item-sub">Awesome room for an Awesome Roommate</div>
+							</div>
+							<div class="thumb-list-bottom">					
+								<div id="price" class="thumb-item-sub">$1350</div>
+								<div id="num-bedrooms" class="thumb-item-sub">4br</div>
+								<div id="location" class="thumb-item-sub">santa clara</div>
+								<div id="img-link" class="thumb-item-sub"><a href="" class="pic">pic</a></div>
+								<div id="map-link" class="thumb-item-sub"><a href="" class="map">map</a></div>
+								<div id="trash" class="thumb-item-sub"><img src=""></div>
+							</div>							
+						</div>			
+					</li>
+					<li>
+						<div class="thumb-list-item">
+						<div id="thumbnail"><img src="assets/img/room.jpg" class="image"></div>					
+							<div class="thumb-list-top">
+								<div id="favorite" class="thumb-item-sub"><img src="assets/img/favstar.png" class="image"></div>
+								<div id="date" class="thumb-item-sub">Mar 12</div>
+								<div id="description" class="thumb-item-sub">Awesome room for an Awesome Roommate</div>
+							</div>
+							<div class="thumb-list-bottom">					
+								<div id="price" class="thumb-item-sub">$1350</div>
+								<div id="num-bedrooms" class="thumb-item-sub">4br</div>
+								<div id="location" class="thumb-item-sub">santa clara</div>
+								<div id="img-link" class="thumb-item-sub"><a href="" class="pic">pic</a></div>
+								<div id="map-link" class="thumb-item-sub"><a href="" class="map">map</a></div>
+								<div id="trash" class="thumb-item-sub"><img src=""></div>
+							</div>							
+						</div>			
+					</li>
+					<li>
+						<div class="thumb-list-item">
+						<div id="thumbnail"><img src="assets/img/room.jpg" class="image"></div>					
+							<div class="thumb-list-top">
+								<div id="favorite" class="thumb-item-sub"><img src="assets/img/favstar.png" class="image"></div>
+								<div id="date" class="thumb-item-sub">Mar 12</div>
+								<div id="description" class="thumb-item-sub">Awesome room for an Awesome Roommate</div>
+							</div>
+							<div class="thumb-list-bottom">					
+								<div id="price" class="thumb-item-sub">$1350</div>
+								<div id="num-bedrooms" class="thumb-item-sub">4br</div>
+								<div id="location" class="thumb-item-sub">santa clara</div>
+								<div id="img-link" class="thumb-item-sub"><a href="" class="pic">pic</a></div>
+								<div id="map-link" class="thumb-item-sub"><a href="" class="map">map</a></div>
+								<div id="trash" class="thumb-item-sub"><img src=""></div>
+							</div>							
+						</div>			
+					</li>
+					<li>
+						<div class="thumb-list-item">
+						<div id="thumbnail"><img src="assets/img/room.jpg" class="image"></div>					
+							<div class="thumb-list-top">
+								<div id="favorite" class="thumb-item-sub"><img src="assets/img/favstar.png" class="image"></div>
+								<div id="date" class="thumb-item-sub">Mar 12</div>
+								<div id="description" class="thumb-item-sub">Awesome room for an Awesome Roommate</div>
+							</div>
+							<div class="thumb-list-bottom">					
+								<div id="price" class="thumb-item-sub">$1350</div>
+								<div id="num-bedrooms" class="thumb-item-sub">4br</div>
+								<div id="location" class="thumb-item-sub">santa clara</div>
+								<div id="img-link" class="thumb-item-sub"><a href="" class="pic">pic</a></div>
+								<div id="map-link" class="thumb-item-sub"><a href="" class="map">map</a></div>
+								<div id="trash" class="thumb-item-sub"><img src=""></div>
+							</div>							
+						</div>			
+					</li>	
+				</ul>
+			</div>
+		</div>
+	</body>
+</html>
