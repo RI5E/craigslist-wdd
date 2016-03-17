@@ -216,7 +216,7 @@ a {
 	font-family: 'Open Sans', sans-serif;
 	float: left;
 	width: 150px;
-	height: 1000px;
+	height: 110%;
 	position: relative;
 	top: 20px;
 	background-color: rgb(50,50,50);
@@ -346,9 +346,11 @@ select {
   margin-bottom: 10px;
   background-color: black;
   color: white;
-  height: 50px;
+  height: 110px;
+  width: 300px;
   border-bottom-left-radius: 7px;
   border-bottom-right-radius: 7px;
+  padding: 7px;
 }
 
 .map {
